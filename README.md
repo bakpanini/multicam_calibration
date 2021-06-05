@@ -12,7 +12,7 @@ Two sets of images have to be captured using the camera system.
 
 **1. snaps.py** : Capture images from the 2 cameras simultaneous along with the timestaps to match the corresponding images 
 
-**2. cameracalib.py** : Feed the images(Checkerboard pattern - Zhang Method) of each camera to get the camera intrinsics.
+**2. cameracalib.py** : Feed the images (Checkerboard pattern - Zhang Method) of each camera to get the camera intrinsics.
 
 **3. essentialmatrix_fundamental.py** : To return the essential and fundamental matrices after finding the corresponding features between the two images from 2 cameras
 
