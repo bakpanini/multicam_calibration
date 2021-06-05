@@ -10,10 +10,15 @@ Two sets of images have to be captured using the camera system.
 Scripts: 
 
 **1. snaps.py** : Capture images from the 2 cameras simultaneous along with the timestaps to match the corresponding images 
+
 **2. cameracalib.py** : Feed the images(Checkerboard pattern - Zhang Method) of each camera to get the camera intrinsics.
+
 **3. essentialmatrix_fundamental.py** : To return the essential and fundamental matrices after finding the corresponding features between the two images from 2 cameras
+
 **4. home.py** : Stereo rectification of the image pair from the two cameras and return the disparity map
+
 **5. video_depth.py** : Consider an object of know dimension in the world and find the scale factor,which can further be used to triangulate to find distances of pointsin the world frame. This can be used to get online disparity and depth map (after finding the scale factor)
+
 **6. relativepose.m** : Computes the extrinsics or the camera transforms of the two cameras call them R1 and R2
 
 
