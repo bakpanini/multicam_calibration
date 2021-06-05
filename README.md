@@ -5,7 +5,7 @@ Multicamera setup has is a lot cheaper than a stereo camera setup, it has an adv
 
 In my camera setup, I have used 2 Logitech cameras and the same algorithm finds transformation of one camera withrespect to the other and hence it can be easily used for camera sysyem with more than 2 cameras. 
 Two sets of images have to be captured using the camera system. 
-1. Checkerboard pattern to compute the intrisics of the camera
+1. Checkerboard pattern to compute the intrisics of the individual monocular camera
 2. Image pair with a physical object of known dimensions
 
 **Scripts:** 
